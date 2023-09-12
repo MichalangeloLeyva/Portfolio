@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Mikes WebDev Page</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="styles.css">
+<style>
+body {font-family: "Lato", sans-serif}
+.mySlides {display: none}
+</style>
+</head>
+<body>
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-black w3-card">
+    <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large">HOME</a>
+    <a href="#band" class="w3-bar-item w3-button w3-padding-large w3-hide-small">ME</a>
+    <a href="#tour" class="w3-bar-item w3-button w3-padding-large w3-hide-small">ABOUT</a>
+    <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hide-small">CONTACT</a>
+    <div class="w3-dropdown-hover w3-hide-small">
+      </div>
+    </div>
+    <a href="javascript:void(0)" class="w3-padding-large w3-hover-red w3-hide-small w3-right"><i class="fa fa-search"></i></a>
+  </div>
+</div>
+
+<!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
+<div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
+  <a href="#band" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Me</a>
+  <a href="#tour" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">About</a>
+  <a href="#contact" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">CONTACT</a>
+</div>
+
+<!-- Page content -->
+<div class="w3-content" style="max-width:2000px;margin-top:46px">
+
+  <!-- Automatic Slideshow Images -->
+  <div class="mySlides w3-display-container w3-center">
+    <img src="https://cloudinary.com/blog/wp-content/uploads/sites/12/2022/02/Mario_1.gif" style="height:500px">
+    <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+      <h3>  </h3>
+      <p><b>    </b></p>   
+    </div>
+  </div>
+  <div class="mySlides w3-display-container w3-center">
+    <img src="https://c4.wallpaperflare.com/wallpaper/632/34/549/technology-monitor-alpha-coders-binary-wallpaper-preview.jpg" style="height:500px">
+    <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+      <h3>   </h3>
+      <p><b>   </b></p>    
+    </div>
+  </div>
+  <div class="mySlides w3-display-container w3-center">
+    <img src="https://c0.wallpaperflare.com/preview/576/833/208/buero-co-working-coder-creative.jpg" style="height:500px">
+    <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+      <h3>   </h3>
+      <p><b>    </b></p>    
+    </div>
+  </div>
+
+  <!-- The Band Section -->
+  <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="band">
+    <h2 class="w3-wide">I´M Michal</h2>
+    <p class="w3-opacity"><i>Web Developer</i></p>
+    <p class="w3-justify">Being a web developer is a challenging yet rewarding career that involves designing and building 
+        websites and web applications. Web developers work with a variety of programming languages, frameworks, 
+        and tools to create interactive and engaging digital experiences for users. They must stay up-to-date with the
+         latest technologies and trends in web development to create websites that are fast, secure, and accessible across multiple devices. 
+         Whether you're creating a simple landing page or a complex web application, being a web developer requires creativity, problem-solving skills, 
+         and a passion for technology.</p>
+    <div class="w3-row w3-padding-32">
+      <div class="w3-third">
+        <p></p>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/2048px-HTML5_logo_and_wordmark.svg.png" class="w3-round w3-margin-bottom" alt="HTML" style="width:60%">
+      </div>
+      <div class="w3-third">
+        <p></p>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1452px-CSS3_logo_and_wordmark.svg.png" class="w3-round w3-margin-bottom" alt="Random Name" style="width:60%">
+      </div>
+      <div class="w3-third">
+        <p></p>
+        <img src="https://1000logos.net/wp-content/uploads/2020/09/JavaScript-Logo.png" class="w3-round" alt="Random Name" style="width:100%">
+      </div>
+    </div>
+  </div>
+
+  <!-- The Tour Section -->
+  <div class="w3-black" id="tour">
+    <div class="w3-container w3-content w3-padding-64" style="max-width:800px">
+      <h2 class="w3-wide w3-center">BUILT BY ME</h2>
+      <p class="w3-opacity w3-center"><i>Services and Websites I´ve Made</i></p><br>
+
+      <ul class="w3-ul w3-border w3-white w3-text-grey">
+        <li class="w3-padding">Web Development<span class="w3-tag w3-red w3-margin-left">Proficent in HTML, CSS, and Javascript</span></li>
+        <li class="w3-padding">E-Commerce<span class="w3-tag w3-red w3-margin-left">Experienced Shopify Developer</span></li>
+        <li class="w3-padding">Search Engine Optimization <span class="w3-tag w3-red w3-margin-left">Maximizing Site Traffic</span></li>
+      </ul>
+
+      <div class="w3-row-padding w3-padding-32" style="margin:0 -16px">
+        <div class="w3-third w3-margin-bottom">
+          <img src="data:image/jpeg;base64,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" alt="Bruh Kitchen" style="width:100%" class="w3-hover-opacity">
+          <div class="w3-container w3-white">
+            <p><b>Bruh Kitchen</b></p>
+            <p>A Family Owned Resturant With Deliveries</p>
+            <a href="https://bruhskitchen.myshopify.com/">
+            <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('ticketModal').style.display='block'">Visit</button>
+            </a>
+          </div>
+        </div>
+        <div class="w3-third w3-margin-bottom">
+          <img src="LENT LOGO.jpg" alt="LentLLC" style="width:100%" class="w3-hover-opacity">
+          <div class="w3-container w3-white">
+            <p><b>LentLLC</b></p>
+            <p>A 24 Hour Roadside Service Company</p>
+            <a href="https://lentllc.myshopify.com/">
+            <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('ticketModal').style.display='block'">Visit</button>
+          </a>
+          </div>
+        </div>
+        <div class="w3-third w3-margin-bottom">
+          <img src="piano logo.png" alt="Name" style="width:100%" class="w3-hover-opacity">
+          <div class="w3-container w3-white">
+            <p><b>Silk Piano</b></p>
+            <p>A rental piano/pianist Company</p>
+            <a href="https://silk-piano.myshopify.com/">
+            <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('ticketModal').style.display='block'">Visit</button>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+ 
+
+  <!-- The Contact Section -->
+  <div class="w3-container w3-content w3-padding-64" style="max-width:800px" id="contact">
+    <h2 class="w3-wide w3-center">Contact</h2>
+    <p class="w3-opacity w3-center"><i>Lets Work Together!</i></p>
+    <div class="w3-row w3-padding-32">
+      <div class="w3-col m6 w3-large w3-margin-bottom">
+        <i class="fa fa-envelope" style="text-align:center;" style="width:100%">Email: </i>
+        
+      
+        </form>
+      </div>
+    </div>
+  </div>
+  
+<!-- End Page Content -->
+
+
+
+
+<script>
+// Automatic Slideshow - change image every 4 seconds
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 4000);    
+}
+
+// Used to toggle the menu on small screens when clicking on the menu button
+function myFunction() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+
+</script>
+
+</body>
+</html>
